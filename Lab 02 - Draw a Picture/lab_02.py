@@ -1,19 +1,15 @@
 import arcade
 
-arcade.open_window(800, 600, "Play Minecraft NOW")
+arcade.open_window(800, 600, "Drawing")
 arcade.set_background_color(arcade.color.BLUE_GREEN)
 arcade.start_render()
 
-arcade.draw_lrtb_rectangle_filled(160, 245, 300, 50, arcade.color.AMETHYST)
-arcade.draw_lrtb_rectangle_filled(60, 200, 200, 50, arcade.color.AFRICAN_VIOLET)
-arcade.draw_triangle_filled(75, 77, 94, 28, 24, 80, arcade.color.AUROMETALSAURUS)
-arcade.draw_lrtb_rectangle_filled(267, 600, 560, 180, arcade.color.CARNATION_PINK)
-arcade.draw_lrtb_rectangle_filled(120, 450, 456, 189, arcade.color.DARK_PASTEL_RED)
-arcade.draw_triangle_filled(125, 87, 154, 68, 74, 180, arcade.color.BISTRE)
-arcade.draw_lrtb_rectangle_filled(20, 45, 30, 20, arcade.color.AMETHYST)
-arcade.draw_lrtb_rectangle_filled(60, 200, 200, 50, arcade.color.AFRICAN_VIOLET)
-arcade.draw_triangle_filled(75, 77, 104, 78, 24, 80, arcade.color.AUROMETALSAURUS)
-arcade.draw_lrtb_rectangle_filled(267, 600, 560, 380, arcade.color.CARNATION_PINK)
-arcade.draw_lrtb_rectangle_filled(320, 950, 456, 419, arcade.color.GRANNY_SMITH_APPLE)
+arcade.draw_lrtb_rectangle_filled(0, 800, 200, 0, arcade.color.GREEN)
+arcade.draw_lrtb_rectangle_filled(200, 300, 300, 200, arcade.color.BLUE)
+arcade.draw_circle_filled(250, 350, 80, arcade.color.YELLOW)
+arcade.draw_point(220, 365, arcade.color.BLACK_BEAN, 10)
+arcade.draw_point(280, 365, arcade.color.BLACK_BEAN, 10)
+arcade.draw_arc_outline(250, 320, 50, 50, arcade.color.BLACK_BEAN, 180, 360, 10)
+arcade.draw_circle_filled(700, 500, 80, arcade.color.ORANGE_PEEL)
 
 arcade.run()
