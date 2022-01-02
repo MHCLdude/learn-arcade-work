@@ -1,6 +1,6 @@
 import arcade
 
-arcade.open_window(800, 600, "My Drawing")
+arcade.open_window(800, 600, "My Programmed Drawing")
 arcade.set_background_color(arcade.color.BLUE_GREEN)
 arcade.start_render()
 
