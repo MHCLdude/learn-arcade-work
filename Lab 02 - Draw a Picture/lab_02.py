@@ -10,6 +10,6 @@ arcade.draw_circle_filled(250, 350, 80, arcade.color.YELLOW)
 arcade.draw_point(220, 365, arcade.color.BLACK_BEAN, 10)
 arcade.draw_point(280, 365, arcade.color.BLACK_BEAN, 10)
 arcade.draw_arc_outline(250, 320, 50, 50, arcade.color.BLACK_BEAN, 180, 360, 10)
-arcade.draw_circle_filled(700, 500, 80, arcade.color.ORANGE_PEEL)fart
+arcade.draw_circle_filled(700, 500, 80, arcade.color.ORANGE_PEEL)
 
 arcade.run()
