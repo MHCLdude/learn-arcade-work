@@ -1,5 +1,11 @@
 done = False
+miles_traveled = 0
+thirst = 0
+camel_tiredness = 0
 
+print("Welcome to Camel!")
+print("You have stolen a camel to make your way across the great Mobi desert.")
+print("The natives want their camel back and are chasing you down! Survive your \ndesert trek and out run the natives.\n")
 def main():
     print("A. Drink from your canteen")
     print("B. Ahead moderate speed")
