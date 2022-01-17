@@ -25,6 +25,7 @@ while done == False:
             done = True
 
     elif player_choice == "E" or "e":
+        yn = n
         print("Miles Traveled: " + miles_traveled)
         print("Drinks in canteen" + drinks_in_canteen)
         print("The natives are " + 0 - natives_behind + " miles behind you")
