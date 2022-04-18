@@ -16,11 +16,12 @@ def main():
     print("D. Stop for the night")
     print("E. Status check")
     print("Q. Quit")
-    player_choice = input("What is your choice? ").upper
+    player_choice = input("What is your choice? ").upper()
+
 while done == False:
     main()
-    player_choice = input("What is your choice? ")
-    if player_choice == "Q" or "q":
-        yn = input("Quit? y/n ")
-        if yn == "y" or "Y":
+
+    if player_choice == "Q":
+        yn = input("Quit? y/n ").upper()
+        if yn == "Y":
             done = True
